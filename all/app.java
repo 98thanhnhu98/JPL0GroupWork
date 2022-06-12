@@ -13,7 +13,6 @@ public class app {
         System.out.println("6. Exit");
     }
     public static void main(String[] args) throws IOException {
-
         readFileData read = new readFileData();
         Scanner sc = new Scanner(System.in);
         menu();
