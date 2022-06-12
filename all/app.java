@@ -1,4 +1,4 @@
-package java2.baiTapNhom2Nguoi;
+package java2.baiTapNhom2Nguoi.all;
 
 import java.io.IOException;
 import java.util.Scanner;
@@ -26,6 +26,9 @@ public class app {
                 read.addEmployee();
                 menu();
             } else if (choice == 2){
+                System.out.println("Nhập vị trí cần xóa");
+                int id = sc.nextInt();
+                read.removeEployee(id);
                 menu();
             } else if (choice == 3) {
                 read.getEmployeeName();

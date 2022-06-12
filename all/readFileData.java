@@ -1,4 +1,4 @@
-package java2.baiTapNhom2Nguoi;
+package java2.baiTapNhom2Nguoi.all;
 
 import JPL0Lab7.Student;
 import com.google.gson.Gson;
@@ -47,6 +47,10 @@ public class readFileData {
         }
         Employee e = new Employee(id,name,email,role,manager);
         add(e);
+    }
+
+    public void removeEployee(int id){
+        employees1.remove(id);
     }
     public void add (Employee s){
         employees1.add(s);

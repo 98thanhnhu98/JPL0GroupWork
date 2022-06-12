@@ -1,4 +1,4 @@
-package java2.baiTapNhom2Nguoi;
+package java2.baiTapNhom2Nguoi.all;
 
 import java.util.Arrays;
 
